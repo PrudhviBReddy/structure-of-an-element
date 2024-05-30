@@ -1,0 +1,71 @@
+img{
+    width: 300px;
+    border:10px solid gray;
+    padding:50px;
+    margin:100px;
+}
+
+img:hover{
+    filter:drop-shadow(10px 10px 10px gray);
+    background-color: aqua;
+    
+}
+
+.CSKPlayers{
+    border: 10px solid red;
+    
+}
+
+.DCPlayers{
+    border: 10px dotted blue;
+}
+
+.GTPlayers{
+    border: 10px dashed green;
+}
+
+.KKRPlayers{
+    border: 10px groove brown;
+}
+
+.LSGPlayers{
+    border: 10px double lightskyblue;
+}
+
+.MIPlayers{
+    border: 10px ridge blue;
+}
+
+.PBKSPlayers{
+    border: 10px inset black;
+}
+
+.RRPlayers{
+    border: 10px outset pink;
+}
+
+.RCBPlayers{
+    border: 10px double brown;
+}
+
+.SRHPlayers{
+    border: 10px ridge orangered;
+}
+
+#p1{
+    width: 300px;
+    height: 300px;
+    border:10px solid gray;
+    padding:30px;
+    margin:50px;
+    box-sizing: content-box;
+}
+
+#p2{
+    width: 300px;
+    height: 300px;
+    border:10px solid gray;
+    padding:30px;
+    margin:50px;
+    box-sizing: border-box;
+}
